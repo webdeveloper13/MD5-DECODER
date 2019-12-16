@@ -26,11 +26,11 @@ DEBUG OUTPUT:
   			$ch2 = $txt[$j];
 
   			for ($k=0; $k < strlen($txt) ; $k++) { 
-  				# code...
+  				
   				$ch3 = $txt[$k];
 
   				for ($l=0; $l < strlen($txt); $l++) { 
-  					# code...
+  					
   					$ch4 = $txt[$l];
   				  
 
@@ -44,7 +44,7 @@ DEBUG OUTPUT:
   	if ( $show>0 ) {
   		print "$check $try\n";
   		$show = $show-1;
-  		# code...
+  		
   	}
 
   }
@@ -66,10 +66,7 @@ print "\n";
 <ul>
 <li><a href="index.php">Reset</a></li>
 <li><a href="md5.php">MD5 Encoder</a></li>
-<li><a href="makecode.php">MD5 Code Maker</a></li>
-<li><a
-href="#"
-target="_blank">Source code for this application</a></li>
+
 </ul>
 
 
